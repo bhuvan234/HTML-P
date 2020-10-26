@@ -43,11 +43,54 @@
 
                     <div class="contentdev" id="ourteam">
                         <h1 style="text-align:center;color: cornsilk;">Our Team</h1>
-                        <div class="Bhuvan"><img src="C:\Users\Asus\Pictures\my photos\my memories\Bhuvan.jpg" style="float: left;border: 3px solid white;border-radius: 10px;" width="200px" height="200px">
+                        <div class="Bhuvan"><img src="C:\Users\Asus\Pictures\my photos\my memories\Bhuvan1.jpg" style="float: left;border: 3px solid white;border-radius: 10px;" width="200px" height="200px">
                         <p1 style="float: right;margin-right: 300px;margin-top:30px; font-size: 30px;color: cornsilk;">M.Bhuvaneshwar<br>
                         Reg No:11801892</p>
                         </div>
                         
                     </div>
         </div>    
-     
+     <div class="footer">
+     <div class="contact" style="color: white;"><h1>Contact Us</h1>
+    <label style="color:white;margin: 20px;">Name<input type="text" name="name" required style="margin:10px 20px;border-radius: 10%;"></label><br>
+    <label style="color:white;margin: 20px;">Email<input type="email" name="email" required style="margin: 10px 20px;border-radius: 10%;"></label><br>
+    <label style="color:white;margin: 20px;">Message<input type="text" name="message" required style="margin:10px 20px;border-radius: 10%;"></label><br>
+          <button type="submit" style="width: 70px;margin-left: 20px;">SEND</button>
+    </div>
+    <div class="foot2">
+      <h1 style="color: white;">Follow</h1>
+          <div class="social">
+          <a href="#" style="background-color: red;color: white;">Youtube</a>
+          <a href="#" style="background-color: blue;color: white;">facebook</a>
+          <a href="#" style="background-color: deepskyblue;color: white;">twitter</a>
+          <a href="#" style="background-image: url(img/insta.jpg);color: white;">instagram</a>
+          </div>
+      </div>
+     </div>
+     <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000);
+            }
+            </script>
+            <script>
+              $("p1").hide();
+          $(document).ready(function(){
+           $(".naveen").hover(function(){
+            $("p1").toggle(1000);
+             });
+             
+});
+            </script>
+    </body>
+</html>
