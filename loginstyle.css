@@ -1,0 +1,134 @@
+body{
+    margin: auto;
+    width: 99.7%;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background: -webkit-linear-gradient(top,aqua,blue);
+}
+.logo{
+    font-size: 50px;
+    padding: 5px;
+    padding-right: 70px;
+    text-decoration-style: none;
+    float: right;
+    color: black;
+}
+.menu{
+    height: 70px;
+    float: left;
+   
+}
+ul li a{ 
+  font-size: 20px;
+   display: block;
+   padding-bottom: 5px;padding-top: 5px;
+   padding-left: 10px;padding-right: 10px;
+   color: blanchedalmond;
+}
+ul li{
+    float: left;
+    margin:5px;
+    border-radius: 10%;
+    list-style: none;
+}
+ul li:hover{
+    background: yellow;
+}
+ul li a:hover{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+
+
+.courses ul{
+    position: absolute;
+    visibility: hidden;
+    width:120px;
+    background: -webkit-linear-gradient(left,aqua,blue);
+    border-radius: 5%;
+    align-self: auto;
+    
+}
+
+.courses:hover ul{
+     visibility: visible;
+}
+#form-container{
+  padding: 10px 30px;
+    border-radius: 4px;
+    background: #f7f7f7;
+    max-width: 400px;
+    margin: 50px auto;
+    border: 1px solid #dbdbdb;
+}
+#google-button-container{
+  background: #fff;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 7px 10px;
+    margin: 15px 0 5px;
+}
+.ortext{
+  color: #999;
+    width: 40px;
+    margin: 0 auto!important;
+    position: relative;
+    z-index: 10;
+    background: #f7f7f7;
+}
+.control-label{
+  font-family: helvetica;
+  font-size: 14px;
+    margin-bottom: 5px!important;
+    font-weight: 600;
+}
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 4px;
+}
+#forget_password {
+    color: ;
+    text-decoration: underline;
+    cursor: pointer!important;
+    pointer-events: all;
+}
+
+#login_submit {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 5px 150px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+
+}
